@@ -69,8 +69,8 @@ svg {
   width: 200px;
 }
 
-// @media (max-width: 480px) {
-//   body {
-//     background: linear-gradient(45deg, #000000D0, #000000D0), url('../assets/noise-sm.svg');
-//   }
-// }
+@media (max-width: 480px) {
+  body {
+    background: radial-gradient(#000000A0, #000000F0), url('../assets/noise-sm.svg');
+  }
+}
